@@ -1,4 +1,4 @@
-# Email Scraper
+# Email Scrapper
 
 ## 📌 Overview
 
