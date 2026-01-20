@@ -12,9 +12,6 @@ The application enables a client to securely send files to a server by combining
 - Socket-based network communication
 - The project is intended strictly for educational and defensive security purposes, focusing on understanding how secure data transfer mechanisms work at a fundamental level
 
-```bash
-pip install foobar
-```
 
 ## 🛡️ Core Features
 - Secure File Encryption
