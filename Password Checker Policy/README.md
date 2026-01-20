@@ -86,7 +86,7 @@ Ensure compliance with all applicable laws and ethical standards.
 
 ---
 
-🤝 Final Note
+## 🤝 Final Note
 
 Strong password policies significantly reduce security risks.
 Learn responsibly. Use ethically.
