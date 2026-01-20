@@ -38,17 +38,6 @@ This project is intended for **cybersecurity education**, **defensive security a
 5. Optional breach database check is performed  
 6. Results and security recommendations are displayed  
 
----
-
-## 📁 Project Structure
-
-password-policy-checker/
-│
-├── password_checker.py
-│ └── Main script containing the PasswordChecker class and CLI
-│
-└── README.md
-
 
 ---
 
@@ -56,7 +45,6 @@ password-policy-checker/
 
 Run the script:
 
-```bash
 python3 password_checker.py
 
 Available options:
