@@ -119,7 +119,7 @@ After running, you should see:
 
 This repository is useful for practicing:
 - basic incident response workflow
-* evidence collection automation
+- evidence collection automation
 - storing artifacts + metadata
 - hashing for integrity checks
 - generating simple reports
