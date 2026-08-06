@@ -1,4 +1,4 @@
-#🛡️ Log Analyzer
+🛡️ Log Analyzer
 
 A lightweight Python-based log analysis tool for detecting basic suspicious activity in SSH authentication logs and Apache/Nginx web logs.
 
@@ -9,7 +9,7 @@ The script parses log files and looks for suspicious patterns such as:
 
 The project is created for learning, automation, and cybersecurity research purposes.
 
-##⚠️ Disclaimer
+⚠️ Disclaimer
 
 This tool is created for educational and ethical purposes only.
 Do NOT use it on systems, servers, logs, or infrastructure that you do not own or do not have explicit permission to analyze.
@@ -23,7 +23,7 @@ By using this project, you agree that:
 
 Use this software at your own risk.
 
-##🔍 Features
+🔍 Features
 
 This tool can detect:
 - Detection	Description
@@ -32,7 +32,7 @@ This tool can detect:
 - High Traffic	Detects a high number of requests from a single IP
 - Demo Logs	Generates sample SSH and web logs for testing
 
-##⚙️ Requirements
+⚙️ Requirements
 
 Make sure you have:
 - Python 3.8+
@@ -40,7 +40,7 @@ Make sure you have:
 
 The project uses only Python standard libraries.
 
-##🚀 Usage
+🚀 Usage
 
 SSH / Authentication Log
 
@@ -58,7 +58,7 @@ Analyze an existing web access log:
 Example:
 - python log_analyzer.py --file /var/log/nginx/access.log --type web
 
-##🧪 Demo Mode
+🧪 Demo Mode
 
 The script can generate sample logs automatically for testing.
 
@@ -74,7 +74,7 @@ python log_analyzer.py --demo web
 This creates:
 - demo_web.log and automatically analyzes it for suspicious web scanning activity
 
-##🎯 Detection Thresholds
+🎯 Detection Thresholds
 
 Default detection settings:
 - BRUTE_FORCE_THRESHOLD = 5
@@ -98,7 +98,7 @@ An alert is generated when a single IP generates at least:
 
 Thresholds can be changed directly inside the Python script.
 
-##📊 Example Output
+📊 Example Output
 
 [i] Loaded 20 lines from 'demo_web.log' (type: web)
 
@@ -111,14 +111,13 @@ ANALYSIS RESULTS
 ============================================================
 
 Example brute-force detection:
-
 ============================================================
 ANALYSIS RESULTS
 ============================================================
 [BRUTE FORCE] IP 203.0.113.55: 6 failed login attempts between ...
 ============================================================
 
-##📁 Project Structure
+📁 Project Structure
 Log-Analyzer/
 │
 ├── log_analyzer.py
@@ -128,7 +127,7 @@ Log-Analyzer/
 
 The demo log files are automatically generated when demo mode is used.
 
-##🎯 Purpose
+🎯 Purpose
 
 This project is intended for:
 - Cybersecurity learning
@@ -142,7 +141,7 @@ This project is intended for:
 
 It is ideal for students, beginners, and anyone interested in learning how basic security detections work.
 
-##🔐 Legal Notice
+🔐 Legal Notice
 
 By using this repository, you acknowledge that:
 - You will only analyze systems and logs you own or are authorized to access
